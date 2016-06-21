@@ -1,0 +1,8 @@
+{
+	"exposed" : true,
+	"default_file": "index.html",
+	"authentication" : [ {
+		"method" : "Form"
+	} ],
+	"authorization" : [ "p1941872711trial.iotmmsxs.iotdata::Basic" ]
+}

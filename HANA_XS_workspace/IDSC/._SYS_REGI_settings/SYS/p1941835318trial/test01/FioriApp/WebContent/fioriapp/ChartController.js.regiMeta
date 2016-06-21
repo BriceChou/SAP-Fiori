@@ -1,0 +1,24 @@
+{
+ "name": "ChartController",
+ "package": "p1941835318trial.test01.FioriApp.WebContent.fioriapp",
+ "suffix": "js",
+ "metadata": {
+  "activated_at": "2016-02-27 02:12:08.771 UTC",
+  "activated_by": "DEV_6HMA2T3V0YDBH0NL1OY162N6P",
+  "change_number": "0",
+  "delivery_unit": "",
+  "du_vendor": "",
+  "du_version": "",
+  "du_version_patch": "",
+  "du_version_sp": "",
+  "edit": "true",
+  "format_version": "",
+  "object_status": "0",
+  "released_at": "null",
+  "type": "1",
+  "version_id": "14"
+ },
+ "version": {
+  "versionType": "1"
+ }
+}

@@ -1,0 +1,10 @@
+// To define an XS OData service, you can use the following syntax.
+// In the example below Aggregation, Modification and Association are defined.
+
+service  { 
+    "NEO_1B2PI73TWSB8U8HLZJK1H7G4X"."T_IOT_C3FC0198A1F95CD5A2EB"          // Table or View  
+     as "IoTData"
+   key generate local "GEN_ID"
+   ;    // Additional aggregation per column are MIN, MAX, AVG
+        
+}  

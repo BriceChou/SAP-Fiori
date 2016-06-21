@@ -1,0 +1,24 @@
+{
+ "metadata": {
+  "activated_at": "2016-02-20 16:40:43.746 UTC",
+  "activated_by": "DEV_6HMA2T3V0YDBH0NL1OY162N6P",
+  "change_number": "0",
+  "delivery_unit": "",
+  "du_vendor": "",
+  "du_version": "",
+  "du_version_patch": "",
+  "du_version_sp": "",
+  "edit": "true",
+  "format_version": "",
+  "object_status": "0",
+  "released_at": "null",
+  "type": "1",
+  "version_id": "2"
+ },
+ "version": {
+  "versionType": "1"
+ },
+ "package": "p1941835318trial.test01.FioriApp",
+ "name": "iotaccess",
+ "suffix": "hdbrole"
+}

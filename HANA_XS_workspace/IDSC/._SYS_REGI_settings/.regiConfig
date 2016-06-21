@@ -1,0 +1,11 @@
+﻿{
+ "name": "IDSC",
+ "hostname": "localhost:30015",
+ "systemid": "IDB",
+ "user": "DEV_6HMA2T3V0YDBH0NL1OY162N6P",
+ "key": "",
+ "client_format_version": "1.0.0",
+ "trackedPackages": [],
+ "instance": "0",
+ "dbtype": "singledb"
+}

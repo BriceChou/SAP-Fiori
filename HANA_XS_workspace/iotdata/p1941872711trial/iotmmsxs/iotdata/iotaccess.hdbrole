@@ -1,0 +1,4 @@
+role p1941872711trial.iotmmsxs.iotdata::iotaccess {
+	application privilege: p1941872711trial.iotmmsxs.iotdata::Basic;
+	catalog schema "NEO_6URY3JDXKU7ZAYY7ZFTV9RAE3": SELECT;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+	
+	 <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <script 
+      src="resources/sap-ui-core.js"
+        id="sap-ui-bootstrap"
+        data-sap-ui-libs="sap.ui.ux3,sap.m, sap.viz"
+        data-sap-ui-theme="sap_bluecrystal"
+        data-sap-ui-compatVersion="edge"
+        data-sap-ui-preload="async"
+     	data-sap-ui-resourceroots='{ "com.sspu": "./" }'
+      >
+
+    </script>
+    <!-- only load the mobile lib "sap.m" and the "sap_bluecrystal" theme -->
+
+
+    <script>
+    		sap.ui.getCore().attachInit(function () {
+			sap.ui.xmlview({
+				viewName: "com.sspu.fioriapp.Main"
+			}).placeAt("content");
+		});
+		</script>
+
+  </head>
+  <body class="sapUiBody"  id="content" role="application">
+  </body>
+</html>

@@ -1,0 +1,264 @@
+{
+ "name": "",
+ "filenames": [
+  {
+   "filename": "p1941835318trial/test01/FioriApp/.classpath",
+   "filesize": "1071",
+   "timest": "2016-02-20 08:44:37.607 UTC",
+   "sha1value": "354320320.2698784402.607870824.130559795.1223740610"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/.project",
+   "filesize": "1682",
+   "timest": "2016-03-01 14:16:24.857 UTC",
+   "sha1value": "465209864.3318702359.3238685531.3180432725.3279968092"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/.tern-project",
+   "filesize": "37",
+   "timest": "2016-03-01 14:16:04.923 UTC",
+   "sha1value": "2209933085.214348360.1158039487.576055818.2274090395"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/.xsaccess",
+   "filesize": "143",
+   "timest": "2016-02-20 09:48:28.125 UTC",
+   "sha1value": "1991843959.2370548305.3368405859.3810184454.1296621484"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/.xsapp",
+   "filesize": "2",
+   "timest": "2016-02-20 08:45:24.341 UTC",
+   "sha1value": "3206654440.4224033668.1873828687.2693111305.397549615"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/.xsprivileges",
+   "filesize": "97",
+   "timest": "2016-02-20 16:40:14.610 UTC",
+   "sha1value": "2517590484.128530265.977702330.2927171796.1798687498"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/iotaccess.hdbrole",
+   "filesize": "616",
+   "timest": "2016-02-20 16:40:50.240 UTC",
+   "sha1value": "2615964946.1465073755.84865347.3317511539.2304592588"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/iotservice.xsodata",
+   "filesize": "388",
+   "timest": "2016-02-20 09:46:56.286 UTC",
+   "sha1value": "3416008181.3453864768.1184614893.613743235.2712832118"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/.settings/.jsdtscope",
+   "filesize": "578",
+   "timest": "2016-02-20 08:44:37.461 UTC",
+   "sha1value": "3670457261.1079417520.2279021989.2390179936.3530884852"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/.settings/org.eclipse.core.resources.prefs",
+   "filesize": "60",
+   "timest": "2016-02-20 09:09:42.346 UTC",
+   "sha1value": "900886286.1782007217.3238155771.3884847276.4096769054"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/.settings/org.eclipse.jdt.core.prefs",
+   "filesize": "367",
+   "timest": "2016-02-20 09:10:03.58 UTC",
+   "sha1value": "331892925.4259499574.2073180234.2764688977.3863984545"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/.settings/org.eclipse.wst.common.component",
+   "filesize": "476",
+   "timest": "2016-02-20 08:44:37.353 UTC",
+   "sha1value": "1489279339.1073493371.25906341.1163298070.162908009"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/.settings/org.eclipse.wst.common.project.facet.core.xml",
+   "filesize": "319",
+   "timest": "2016-02-20 08:44:38.612 UTC",
+   "sha1value": "3173630296.603504477.4284339619.3654876153.140101218"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/.settings/org.eclipse.wst.jsdt.ui.superType.container",
+   "filesize": "49",
+   "timest": "2016-02-20 08:44:37.437 UTC",
+   "sha1value": "2276169009.3777110865.1451443919.2421661898.3814789816"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/.settings/org.eclipse.wst.jsdt.ui.superType.name",
+   "filesize": "6",
+   "timest": "2016-02-20 08:44:37.435 UTC",
+   "sha1value": "1105182886.3374778260.2239269148.1373211748.1136550860"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/index.html",
+   "filesize": "926",
+   "timest": "2016-02-29 06:27:53.470 UTC",
+   "sha1value": "4001662674.367882823.2877059773.2433855695.1725920558"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/serviceBinding.js",
+   "filesize": "245",
+   "timest": "2016-02-25 11:56:03.394 UTC",
+   "sha1value": "3367603385.967795322.2437688488.1707457988.1398540074"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/META-INF/MANIFEST.MF",
+   "filesize": "39",
+   "timest": "2016-02-20 08:44:37.358 UTC",
+   "sha1value": "3917835533.3506689434.2091213785.433685319.226615300"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/WEB-INF/web.xml",
+   "filesize": "3394",
+   "timest": "2016-02-20 08:44:37.641 UTC",
+   "sha1value": "2629105990.4166466540.1367563741.1969469172.182924097"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/css/main.css",
+   "filesize": "231",
+   "timest": "2016-02-29 07:36:06.538 UTC",
+   "sha1value": "1566322963.1338549096.1003650507.98574421.1523412387"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/fioriapp/ChartContainer.js",
+   "filesize": "144",
+   "timest": "2016-02-27 02:29:17.650 UTC",
+   "sha1value": "1209725572.3020789125.278934764.3628180167.896952794"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/fioriapp/ChartController.js",
+   "filesize": "63",
+   "timest": "2016-02-27 02:10:54.140 UTC",
+   "sha1value": "2623069233.1338870301.3142411827.3872771764.2952590185"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/fioriapp/ControllerOverall.js",
+   "filesize": "5579",
+   "timest": "2016-02-29 16:28:55.635 UTC",
+   "sha1value": "1666750758.1849357228.1462883107.1260982516.851228751"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/fioriapp/Main.controller.js",
+   "filesize": "26150",
+   "timest": "2016-03-01 16:51:49.748 UTC",
+   "sha1value": "3057390605.1397494547.3403680511.2325817341.2010809150"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/fioriapp/Main.view.xml",
+   "filesize": "7989",
+   "timest": "2016-03-01 15:56:17.78 UTC",
+   "sha1value": "3102541618.1080114309.104312320.3261311464.1838334817"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/fioriapp/Main1.controller.js",
+   "filesize": "7715",
+   "timest": "2016-02-26 03:24:52.08 UTC",
+   "sha1value": "2692063792.2115301362.817121336.3516275978.44089096"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/fioriapp/Main1.view.xml",
+   "filesize": "6379",
+   "timest": "2016-02-26 02:15:47.884 UTC",
+   "sha1value": "2295905588.1098585016.1315813250.3337768529.4189194703"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/img/SVM.png",
+   "filesize": "101789",
+   "timest": "2016-02-29 06:57:46.308 UTC",
+   "sha1value": "230545700.1298143067.3876999453.2950372544.819445098"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/img/SVM1.png",
+   "filesize": "20027",
+   "timest": "2016-02-29 07:03:04.11 UTC",
+   "sha1value": "3340821424.99596818.241743037.1924377439.2932865633"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/img/green.png",
+   "filesize": "106715",
+   "timest": "2016-02-28 05:36:48.39 UTC",
+   "sha1value": "1453772290.4013578619.1347953063.2469249873.1247294787"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/img/logo.png",
+   "filesize": "57799",
+   "timest": "2016-02-29 07:55:37.549 UTC",
+   "sha1value": "3224943155.2019393772.3994042465.1095517838.1012103038"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/img/orange.png",
+   "filesize": "51869",
+   "timest": "2016-02-28 05:36:48.29 UTC",
+   "sha1value": "4075955274.1744904696.2448907035.513830776.919796325"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/img/red.png",
+   "filesize": "58747",
+   "timest": "2016-02-28 05:36:48.19 UTC",
+   "sha1value": "3401398820.2104135053.4061165684.2749754905.2117689856"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/img/yellow.png",
+   "filesize": "384860",
+   "timest": "2016-02-28 05:36:48.23 UTC",
+   "sha1value": "3147413105.1305205954.2164404171.3693796658.509723514"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/model/callProcedure.xsjs",
+   "filesize": "4453",
+   "timest": "2016-02-25 11:56:03.404 UTC",
+   "sha1value": "2514884919.2091467043.1415431838.3851498727.888142290"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/model/data.json",
+   "filesize": "9749",
+   "timest": "2016-02-21 13:05:27.238 UTC",
+   "sha1value": "3562552897.1035313277.311273716.697152123.4227071289"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/model/formatData.xsjs",
+   "filesize": "2016",
+   "timest": "2016-03-01 16:00:15.944 UTC",
+   "sha1value": "4145084759.1142695965.3933151857.2793638441.1790567257"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/model/jsondata.xsjs",
+   "filesize": "2312",
+   "timest": "2016-02-28 16:44:03.806 UTC",
+   "sha1value": "3641058162.2321202419.3265698397.1595109144.2838527856"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/model/testdata.xsjs",
+   "filesize": "1535",
+   "timest": "2016-02-26 02:15:47.893 UTC",
+   "sha1value": "340844346.1508740846.1315044004.2004730214.257385677"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/model/updateData.xsjs",
+   "filesize": "2281",
+   "timest": "2016-02-27 01:40:37.134 UTC",
+   "sha1value": "2828198228.2364650389.3292802202.1351119139.3212225137"
+  },
+  {
+   "filename": "p1941835318trial/test01/FioriApp/WebContent/resources1/sap-ui-core.js",
+   "filesize": "535776",
+   "timest": "2016-02-25 11:56:24.121 UTC",
+   "sha1value": "447819834.2256873253.1001098237.1213490165.108921748"
+  },
+  {
+   "filename": "p1941835318trial/test01/iotdata/callProcedure.xsjs",
+   "filesize": "4501",
+   "timest": "2016-02-29 08:24:25.304 UTC",
+   "sha1value": "3648936129.1548881615.1417231340.2818952839.2250014367"
+  },
+  {
+   "filename": "p1941835318trial/test01/iotdata/jsondata.xsjs",
+   "filesize": "2349",
+   "timest": "2016-02-29 08:24:10.709 UTC",
+   "sha1value": "4222891041.4112647226.3874164413.1626295819.1615568069"
+  }
+ ],
+ "conflicts": []
+}

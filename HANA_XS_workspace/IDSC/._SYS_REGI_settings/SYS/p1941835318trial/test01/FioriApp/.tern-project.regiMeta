@@ -1,0 +1,23 @@
+{
+ "metadata": {
+  "delivery_unit": "",
+  "du_vendor": "",
+  "du_version": "",
+  "du_version_patch": "",
+  "du_version_sp": "",
+  "edit": "true",
+  "format_version": "",
+  "is_deletion": "false",
+  "last_changed_at": "2016-03-01 14:15:41.816 UTC",
+  "type": "2",
+  "version_id": "11"
+ },
+ "package": "p1941835318trial.test01.FioriApp",
+ "name": "",
+ "suffix": "tern-project",
+ "version": {
+  "versionType": "2",
+  "owner": "DEV_6HMA2T3V0YDBH0NL1OY162N6P",
+  "workspace": "IDSC"
+ }
+}

@@ -1,0 +1,156 @@
+<mvc:View controllerName="com.sspu.fioriapp.Main" height="100%"
+	width="100%" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form"
+	xmlns:html="http://www.w3.org/1999/xhtml" xmlns:layout="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc" xmlns:suite="sap.suite.ui.commons"
+	xmlns:table="sap.ui.table" xmlns:viz="sap.viz.ui5.controls">
+	<App id="index">
+		<Page enableScrolling="false" showHeader="true"
+			title="SSPrediction Data Service Center">
+			<TileContainer id="container" tileDelete="handleTileDelete">
+				<StandardTile icon="sap-icon://kpi-corporate-performance"
+					id="Prediction" info="None:It's be ok." infoState="None" number=""
+					numberUnit="Status" press="onPressNavToDetail" title="Prediction Result" />
+				<StandardTile icon="sap-icon://temperature" id="Temperature"
+					info="Error:Service Unavailable. " infoState="Error" number=""
+					numberUnit="℃(CEN)" press="onPressNavToDetail" title="Temperature" />
+				<StandardTile icon="sap-icon://donut-chart" id="Acceleration"
+					info="Successed Receive Data" infoState="Success" number=""
+					numberUnit="m/s sup2" press="onPressNavToDetail" title="Acceleration" />
+				<StandardTile icon="sap-icon://upstacked-chart" id="Spindlespeed"
+					info="Warning:something broken. " infoState="Warning" number=""
+					numberUnit="RPM" press="onPressNavToDetail" title="Spindlespeed" />
+			</TileContainer>
+			<footer>
+				<Toolbar>
+					<ToolbarSpacer />
+					<Button press="handleEditPress" text="Edit" />
+					<Button press="turnGreen" text="Green" />
+					<Button press="turnRed" text="Red" />
+					<Button press="turnYellow" text="Yellow" />
+					<ToolbarSpacer />
+				</Toolbar>
+			</footer>
+		</Page>
+		<Page enableScrolling="true" id="TestDetail" navButtonPress="onPressDetailBack"
+			navButtonText="Back" showNavButton="true" title="Prediction Result Detail">
+			<layout:FixFlex class="fixFlexFixedSize" id="idFixFlex"
+				minFlexSize="250">
+				<!--Below is the chart area -->
+				<layout:flexContent>
+					<viz:Popover id="idPopOver" />
+					<viz:VizFrame height="100%" id="idVizFrameLine"
+						uiConfig="{applicationSet:'fiori'}" width="100%" />
+				</layout:flexContent>
+				<!--Above is the chart area -->
+			</layout:FixFlex>
+		</Page>
+		<Page enableScrolling="true" id="PredictionDetail"
+			navButtonPress="onPressDetailBack" navButtonText="Back"
+			showNavButton="true" title="Prediction Result Detail">
+			<content>
+				<VBox fitContainer="true">
+					<form:SimpleForm columnsL="2" columnsM="2"
+						editable="false" emptySpanL="0" emptySpanM="0" id="PredictionFrom"
+						labelSpanL="4" labelSpanM="4" layout="ResponsiveGridLayout"
+						maxContainerCols="2" minWidth="1024" title="Prediction Status">
+						<form:content>
+							<core:Title text="Prediction Status" />
+							<core:Title text="Prediction Description" />
+						</form:content>
+						<form:layoutData>
+							<FlexItemData shrinkFactor="0" />
+						</form:layoutData>
+					</form:SimpleForm>
+					<IconTabBar applyContentPadding="true"
+						class="sapUiResponsiveContentPadding" expandable="false"
+						stretchContentHeight="true" upperCase="true">
+						<content>
+							<table:AnalyticalTable rowHeight="32"
+								selectionMode="MultiToggle" visibleRowCountMode="Auto">
+								<table:toolbar>
+									<OverflowToolbar>
+										<ToolbarSpacer />
+										<SearchField width="12rem" />
+										<ToolbarSpacer width="1rem" />
+										<SegmentedButton>
+											<buttons>
+												<Button icon="sap-icon://table-view" />
+												<Button icon="sap-icon://bar-chart" />
+											</buttons>
+										</SegmentedButton>
+										<ToolbarSpacer width="1rem" />
+										<Button icon="sap-icon://group-2" type="Transparent" />
+										<Button icon="sap-icon://action-settings" type="Transparent" />
+									</OverflowToolbar>
+								</table:toolbar>
+							</table:AnalyticalTable>
+						</content>
+						<layoutData>
+							<FlexItemData baseSize="0%" growFactor="1" />
+						</layoutData>
+					</IconTabBar>
+				</VBox>
+			</content>
+		</Page>
+		<Page enableScrolling="true" id="TemperatureDetail"
+			navButtonPress="onPressDetailBack" navButtonText="Back"
+			showNavButton="true" title="Temperature Data Detail">
+			<content>
+				<VBox fitContainer="true">
+					<form:SimpleForm columnsL="2" columnsM="2"
+						editable="false" emptySpanL="0" emptySpanM="0" id="TemperatureFrom"
+						labelSpanL="4" labelSpanM="4" layout="ResponsiveGridLayout"
+						maxContainerCols="2" minWidth="1024" title="Address">
+						<form:content>
+							<core:Title text="Office" />
+							<Label text="Name" />
+						</form:content>
+						<form:layoutData>
+							<FlexItemData shrinkFactor="0" />
+						</form:layoutData>
+					</form:SimpleForm>
+				</VBox>
+			</content>
+		</Page>
+		<Page enableScrolling="true" id="AccelerationDetail"
+			navButtonPress="onPressDetailBack" navButtonText="Back"
+			showNavButton="true" title="Acceleration Data Detail">
+			<content>
+				<VBox fitContainer="true">
+					<form:SimpleForm columnsL="2" columnsM="2"
+						editable="false" emptySpanL="0" emptySpanM="0" id="AccelerationFrom"
+						labelSpanL="4" labelSpanM="4" layout="ResponsiveGridLayout"
+						maxContainerCols="2" minWidth="1024" title="Address">
+						<form:content>
+							<core:Title text="Office" />
+							<Label text="Name" />
+						</form:content>
+						<form:layoutData>
+							<FlexItemData shrinkFactor="0" />
+						</form:layoutData>
+					</form:SimpleForm>
+				</VBox>
+			</content>
+		</Page>
+		<Page enableScrolling="true" id="SpindlespeedDetail"
+			navButtonPress="onPressDetailBack" navButtonText="Back"
+			showNavButton="true" title="Spindlespeed Data Detail">
+			<content>
+				<VBox fitContainer="true">
+					<form:SimpleForm columnsL="2" columnsM="2"
+						editable="false" emptySpanL="0" emptySpanM="0" id="SpindlespeedFrom"
+						labelSpanL="4" labelSpanM="4" layout="ResponsiveGridLayout"
+						maxContainerCols="2" minWidth="1024" title="Address">
+						<form:content>
+							<core:Title text="Office" />
+							<Label text="Name" />
+						</form:content>
+						<form:layoutData>
+							<FlexItemData shrinkFactor="0" />
+						</form:layoutData>
+					</form:SimpleForm>
+				</VBox>
+			</content>
+		</Page>
+	</App>
+</mvc:View>

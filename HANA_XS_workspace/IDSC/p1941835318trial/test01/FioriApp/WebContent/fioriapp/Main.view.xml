@@ -1,0 +1,137 @@
+<mvc:View controllerName="com.sspu.fioriapp.Main" height="100%" width="100%" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:form="sap.ui.layout.form" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:layout="sap.ui.layout" xmlns:mvc="sap.ui.core.mvc" xmlns:suite="sap.suite.ui.commons" xmlns:table="sap.ui.table" xmlns:viz="sap.viz.ui5.controls">
+	<App id="index">
+		<!-- index page -->
+		<Page enableScrolling="false" id="indexPage" showHeader="true" title="SSPU-SAP D-KOM">
+		    <content>
+					<Bar height="5em" id="title-bar">
+						<contentLeft>
+							<Image densityAware="false" height="3.2em" src="./img/logo.png" width="10em">
+								<layoutData>
+									<FlexItemData growFactor="1"/>
+								</layoutData>
+							</Image>
+						</contentLeft>
+						<contentMiddle>
+							<Text id="title-text" text="Fault Diagnosis and Monitoring for Spindle on HANA"/>
+						</contentMiddle>
+					</Bar>
+			<TileContainer id="container" tileDelete="handleTileDelete">
+
+				<!-- prediction StandardTile -->
+				<StandardTile icon="sap-icon://kpi-corporate-performance" id="prediction" info="Preparing..." infoState="None" number="" numberUnit="Status" press="onPressNavToDetail" title="Diagnosis and Analysis"/>
+
+				<!-- temperature StandardTile -->
+				<StandardTile icon="sap-icon://temperature" id="temperature" info="Preparing..." infoState="Success" number="" numberUnit="℃" press="onPressNavToDetail" title="Temperature"/>
+
+				<!-- acceleration StandardTile -->
+				<StandardTile icon="sap-icon://performance" id="acceleration" info="Preparing..." infoState="Success" number="" numberUnit="m/s²" press="onPressNavToDetail" title="Acceleration"/>
+
+				<!-- spindlespeed StandardTile -->
+				<StandardTile icon="sap-icon://explorer" id="spindlespeed" info="Preparing..." infoState="Success" number="" numberUnit="RPM" press="onPressNavToDetail" title="Spindle Speed"/>
+			</TileContainer>
+			</content>
+		
+			<!-- index footer -->
+			<footer>
+				<Toolbar>
+					<ToolbarSpacer/>
+					<Button text="About us" press="bricechou"/>
+					<Button text="SSPrediction"/>
+					<Button text="Fault Diagnosis"/>
+					<Button text="Monitoring for Spindle on HANA"/>
+					<ToolbarSpacer/>
+				</Toolbar>
+			</footer>
+		</Page>
+
+		<!-- predictionDetail Page -->
+		<!--<Page enableScrolling="false" icon="sap-icon://sap-logo-shape" id="predictionDetail" navButtonPress="onPressDetailBack" navButtonText="Back" showNavButton="true" title="Fault Diagnosis and Analysis">
+		 <Panel class="panelStyle" expandable="true" expanded="true" headerText="Diagnosis and Analysis(Based On SVM)" id="predictionPanel">
+				<form:SimpleForm columnsL="2" columnsM="2" editable="false" emptySpanL="0" emptySpanM="0" id="SimpleFormDisplay480" labelSpanL="4" labelSpanM="4" layout="ResponsiveGridLayout" maxContainerCols="2" minWidth="1024">
+					<form:content>
+						<core:Title text="Diagnosis Status"/>
+						<Image densityAware="false" height="10em" id="img" src="" width="10em"/>
+						<Image densityAware="false" height="10em" id="imgSVM" src="" width="10em"/>
+						<core:Title text="Analysis Description"/>
+						<Text design="Bold" id="text" text="NULL"/>
+					</form:content>
+					<form:layoutData>
+						<FlexItemData shrinkFactor="0"/>
+					</form:layoutData>
+				</form:SimpleForm>
+		</Panel>
+		<layout:FixFlex class="fixFlexFixedSize" id="predictionFixFlex">
+					<layout:flexContent>
+						<viz:Popover id="predictionPopOver"/>
+						<viz:VizFrame height="50%" id="predictionVizFrameLine" uiConfig="{applicationSet:'fiori'}" width="100%"/>
+					</layout:flexContent>
+		</layout:FixFlex>
+		</Page>-->
+		
+	<Page enableScrolling="false" id="predictionDetail" navButtonPress="onPressDetailBack" navButtonText="Back" showNavButton="true" title="Fault Diagnosis and Analysis">
+		<layout:FixFlex class="fixFlexFixedSize" id="predictionFixFlex" minFlexSize="250">
+        <!--Below is the setting panel-->
+        <layout:fixContent>    
+            <Panel class="panelStyle" expandable="true" expanded="true" headerText="Diagnosis and Analysis(Based On SVM)" id="predictionPanel">
+                <ScrollContainer class="scrollStyle" focusable="false" height="100%" horizontal="true" vertical="false" width="100%">
+                    <HBox class="settingBottomStyle" width="auto">
+                        <HBox class="HBoxStyle" id="HB-1">
+                            <VBox class="boxPosition" id="BX-1" width="30%">
+                                <Label class="sapUiSmallMarginTop labelStyle" design="Bold" text="Diagnosis Status"/>
+                                <Image densityAware="false" height="10em" id="img" src="" width="10em"/>
+                            </VBox>
+                            <VBox class="boxPosition" id="BX-2" width="20%">
+                                <Label class="sapUiSmallMarginTop labelStyle" design="Bold" text="Support Vector Machine"/>
+                               <Image densityAware="false" height="10em" id="imgSVM" src="" width="10em"/>
+                            </VBox>
+                            <VBox class="boxPosition" id="BX-3" width="50%">
+                                <Label class="sapUiSmallMarginTop labelStyle" design="Bold" text="Analysis Description"/>
+                             	<Text design="Bold" id="text" text="NULL"/>
+                            </VBox>
+                        </HBox>
+                    </HBox>
+                </ScrollContainer>
+            </Panel>
+        </layout:fixContent>
+        <!--Above is the setting panel-->
+        <!--Below is the chart area-->
+					<layout:flexContent>
+						<viz:Popover id="predictionPopOver"/>
+						<viz:VizFrame height="50%" id="predictionVizFrameLine" uiConfig="{applicationSet:'fiori'}" width="100%"/>
+					</layout:flexContent>
+        <!--Above is the chart area-->
+    </layout:FixFlex>
+</Page>
+		<!-- temperatureDetail Page -->
+		<Page enableScrolling="true" id="temperatureDetail" navButtonPress="onPressDetailBack" navButtonText="Back" showNavButton="true" title="Live Monitoring Temperature Data">
+			<layout:Splitter height="100%" width="100%">
+				<layout:contentAreas>
+					<suite:ChartContainer autoAdjustHeight="true" contentChange="attachContentChange" id="temperatureChartContainer" personalizationPress="attachPersonalizationPress" showFullScreen="false" showLegend="true" showPersonalization="false" title="Temperature Data">
+					</suite:ChartContainer>
+				</layout:contentAreas>
+			</layout:Splitter>
+		</Page>
+
+		<!-- accelerationDetail Page -->
+		<Page enableScrolling="true" id="accelerationDetail" navButtonPress="onPressDetailBack" navButtonText="Back" showNavButton="true" title="Live Monitoring Acceleration Data">
+			<layout:Splitter height="100%" width="100%">
+				<layout:contentAreas>
+					<suite:ChartContainer autoAdjustHeight="true" contentChange="attachContentChange" id="accelerationChartContainer" personalizationPress="attachPersonalizationPress" showFullScreen="false" showLegend="true" showPersonalization="false" title="Acceleration Data">
+					</suite:ChartContainer>
+				</layout:contentAreas>
+			</layout:Splitter>
+		</Page>
+
+		<!-- spindlespeedDetail Page -->
+		<Page enableScrolling="true" id="spindlespeedDetail" navButtonPress="onPressDetailBack" navButtonText="Back" showNavButton="true" title="Live Monitoring Spindle Speed Data">
+			<layout:Splitter height="100%" width="100%">
+				<layout:contentAreas>
+					<suite:ChartContainer autoAdjustHeight="true" contentChange="attachContentChange" id="spindlespeedChartContainer" personalizationPress="attachPersonalizationPress" showFullScreen="false" showLegend="true" showPersonalization="false" title="Spindle Speed Data">
+					</suite:ChartContainer>
+				</layout:contentAreas>
+			</layout:Splitter>
+		</Page>
+	</App>
+</mvc:View><!-- Demo Up code <TileContent footer="Current Quarter" unit="EUR" size="S" 
+	class="sapUiSmallMargin"> <content> <NumericContent size="S" scale="M" value="1.96" 
+	valueColor="Error" indicator="Up" /> </content> </TileContent> -->

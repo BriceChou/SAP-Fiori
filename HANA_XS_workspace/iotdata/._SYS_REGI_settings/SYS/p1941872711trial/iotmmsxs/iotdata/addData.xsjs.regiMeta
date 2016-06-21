@@ -1,0 +1,24 @@
+{
+ "name": "addData",
+ "package": "p1941872711trial.iotmmsxs.iotdata",
+ "suffix": "xsjs",
+ "metadata": {
+  "activated_at": "2016-02-03 11:39:57.884 UTC",
+  "activated_by": "DEV_7BEKD6E27N0YQ9MXYB5AR90F3",
+  "change_number": "0",
+  "delivery_unit": "",
+  "du_vendor": "",
+  "du_version": "",
+  "du_version_patch": "",
+  "du_version_sp": "",
+  "edit": "true",
+  "format_version": "",
+  "object_status": "0",
+  "released_at": "null",
+  "type": "1",
+  "version_id": "2"
+ },
+ "version": {
+  "versionType": "1"
+ }
+}

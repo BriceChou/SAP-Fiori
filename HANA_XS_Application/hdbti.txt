@@ -1,0 +1,10 @@
+import = [
+        {
+            table = "PREDICTION";
+            schema = "NEO_0INDQYTJ8EE964L9OM27Y1LJN";
+            file = "p1941850324trial.iotmmsxs.odata:T_IOT_PREDICTION.csv";
+            header = false;
+             delimField = ";";
+          
+        }
+    ];
